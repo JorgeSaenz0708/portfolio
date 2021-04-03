@@ -9,7 +9,7 @@ sortino <- function(retornos,h){
 ret <- retornos
 h <- h
 rf = rf
-n = n.act
+n <- n.act
 semiretornos <- pmin(ret,h)
 
 s.mu <- colMeans(ret)#
